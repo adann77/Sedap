@@ -51,7 +51,7 @@ function App() {
         </Route>
       
       {/* Layout untuk halaman tamu */}
-      <Route element={<GuestLayout />}>
+      <Route path="/guest" element={<GuestLayout />}>
         <Route path="/guest" element={<SedapGuestPage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<Contact />} />
